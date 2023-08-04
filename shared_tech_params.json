@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAi": {
+            "name": "logo",
+            "url": "//meta.cdn.bubble.io/f1678033007546x905137388496937100/chart-areaspline%20-%20Material%20Design%20Icons%20-%20Pictogrammers.html"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "3",
+        "use_jquery": true
+    }
+}

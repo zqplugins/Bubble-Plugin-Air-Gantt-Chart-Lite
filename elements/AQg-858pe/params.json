@@ -1,0 +1,331 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Gantt Chart (free)",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1549461612857x981942380583291700/gantt.svg",
+    "fields": {
+        "APQ": {
+            "caption": "Task Type",
+            "doc": "Select a task type from your database types.",
+            "editor": "custom_type",
+            "name": "type",
+            "rank": 0
+        },
+        "APR": {
+            "caption": "Tasks Source",
+            "doc": "A tasks list from Bubble.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "tasks_source",
+            "rank": 1,
+            "value": "custom_data_APQ"
+        },
+        "APS": {
+            "caption": "Tasks are a list of simple objects with some properties. Every task object should contain below properties.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 2
+        },
+        "APT": {
+            "caption": "Task ID (required)",
+            "doc": "Task id - text.",
+            "editor": "custom_field_APQ",
+            "field_list": false,
+            "field_type_restriction": "text_image_file",
+            "name": "task_id",
+            "optional": false,
+            "rank": 3
+        },
+        "APU": {
+            "caption": "Task Label (required)",
+            "doc": "Task label - text.",
+            "editor": "custom_field_APQ",
+            "field_type_restriction": "text_image_file",
+            "name": "task_label",
+            "rank": 4
+        },
+        "APV": {
+            "caption": "Task Start (required)",
+            "doc": "Task start - date.",
+            "editor": "custom_field_APQ",
+            "field_type_restriction": "date",
+            "name": "task_start",
+            "rank": 5
+        },
+        "APW": {
+            "caption": "Task Duration (required)",
+            "doc": "Task duration (seconds) - number.",
+            "editor": "custom_field_APQ",
+            "field_type_restriction": "number",
+            "name": "task_duration",
+            "rank": 6
+        },
+        "APX": {
+            "caption": "Task Progress (required)",
+            "doc": "Task progress ( value from 0 to 100 'percent') - number.",
+            "editor": "custom_field_APQ",
+            "field_type_restriction": "number",
+            "name": "task_progress",
+            "rank": 7
+        },
+        "APa": {
+            "caption": "Task User",
+            "doc": "Task user () - text.",
+            "editor": "custom_field_APQ",
+            "field_type_restriction": "text_image_file",
+            "name": "task_user",
+            "optional": false,
+            "rank": 8
+        },
+        "APc": {
+            "caption": "Task Depend On",
+            "doc": "Task depend on (depend on ids) - list of text.",
+            "editor": "custom_field_APQ",
+            "field_list": true,
+            "field_type_restriction": "text_image_file",
+            "name": "task_depend_on",
+            "optional": true,
+            "rank": 9
+        },
+        "APe": {
+            "caption": "Task Color",
+            "doc": "Task color.",
+            "editor": "Color",
+            "name": "task_color",
+            "optional": true,
+            "rank": 10
+        },
+        "APh": {
+            "caption": "Column one name",
+            "default_val": "ID",
+            "doc": "Default: ID",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "long_text": false,
+            "name": "column_one_name",
+            "rank": 13,
+            "value": "text"
+        },
+        "APi": {
+            "caption": "<-- Column one (ID) - ->",
+            "editor": "Label",
+            "name": "column_one",
+            "rank": 11
+        },
+        "APj": {
+            "caption": "Column one width",
+            "default_val": 40,
+            "doc": "Default: 40",
+            "editor": "DynamicValue",
+            "name": "column_one_width",
+            "rank": 14,
+            "value": "number"
+        },
+        "APk": {
+            "caption": "Column two name",
+            "default_val": "Description",
+            "doc": "Default: Description",
+            "editor": "DynamicValue",
+            "name": "column_two_name",
+            "rank": 17,
+            "value": "text"
+        },
+        "APl": {
+            "caption": "Column two width",
+            "default_val": 200,
+            "doc": "Default: 200",
+            "editor": "DynamicValue",
+            "name": "column_two_width",
+            "rank": 18,
+            "value": "number"
+        },
+        "APm": {
+            "caption": "<-- Column two (Description) -->",
+            "editor": "Label",
+            "name": "column_two",
+            "rank": 15
+        },
+        "APn": {
+            "caption": "<-- Column three (ID) - ->",
+            "editor": "Label",
+            "name": "column_three",
+            "rank": 19
+        },
+        "APo": {
+            "caption": "Column three width",
+            "default_val": 130,
+            "doc": "Default: 130",
+            "editor": "DynamicValue",
+            "name": "column_three_width",
+            "rank": 22,
+            "value": "number"
+        },
+        "APp": {
+            "caption": "Column three name",
+            "default_val": "Assigned to",
+            "doc": "Default: Assigned to",
+            "editor": "DynamicValue",
+            "name": "column_three_name",
+            "rank": 21,
+            "value": "text"
+        },
+        "APq": {
+            "caption": "<-- Column four (Start) - ->",
+            "editor": "Label",
+            "name": "column_four",
+            "rank": 23
+        },
+        "APr": {
+            "caption": "Column four name",
+            "default_val": "Start",
+            "doc": "Default: Start",
+            "editor": "DynamicValue",
+            "name": "column_four_name",
+            "rank": 25,
+            "value": "text"
+        },
+        "APs": {
+            "caption": "Column four width",
+            "default_val": 78,
+            "doc": "Default: 78",
+            "editor": "DynamicValue",
+            "name": "column_four_width",
+            "rank": 26,
+            "value": "number"
+        },
+        "APt": {
+            "caption": "<-- Column five (%) - ->",
+            "editor": "Label",
+            "name": "column_five",
+            "rank": 27
+        },
+        "APu": {
+            "caption": "Column five name",
+            "default_val": "Type",
+            "doc": "Default: %",
+            "editor": "DynamicValue",
+            "name": "column_five_name",
+            "rank": 29,
+            "value": "text"
+        },
+        "APv": {
+            "caption": "Column five width",
+            "default_val": 35,
+            "doc": "Default: 35",
+            "editor": "DynamicValue",
+            "name": "column_five_width",
+            "rank": 30,
+            "value": "number"
+        },
+        "APz": {
+            "caption": "<-- Style Settings -->",
+            "editor": "Label",
+            "name": "style_settings",
+            "rank": 31
+        },
+        "AQB": {
+            "caption": "Main view background",
+            "doc": "background main container, Default: #fff",
+            "editor": "Color",
+            "name": "main_view_background",
+            "optional": true,
+            "rank": 34
+        },
+        "AQC": {
+            "caption": "Header background",
+            "doc": "background header container, Default: #f3f5f7",
+            "editor": "Color",
+            "name": "header_background",
+            "optional": true,
+            "rank": 32,
+            "value": "text"
+        },
+        "AQD": {
+            "caption": "Header color",
+            "doc": "Color header container, Default: #000",
+            "editor": "Color",
+            "name": "header_color",
+            "optional": true,
+            "rank": 33
+        },
+        "AQE": {
+            "caption": "Main view color",
+            "editor": "Color",
+            "name": "main_view_color",
+            "optional": true,
+            "rank": 35
+        },
+        "AQG": {
+            "caption": "Show column one",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_column_one",
+            "rank": 12,
+            "value": "boolean"
+        },
+        "AQH": {
+            "caption": "Show column two",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_column_two",
+            "rank": 16,
+            "value": "boolean"
+        },
+        "AQI": {
+            "caption": "Show column thee",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_column_three",
+            "rank": 20,
+            "value": "boolean"
+        },
+        "AQJ": {
+            "caption": "Show column four",
+            "default_val": true,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "show_column_four",
+            "rank": 24,
+            "value": "boolean"
+        },
+        "AQK": {
+            "caption": "Show column five",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_column_five",
+            "rank": 28,
+            "value": "boolean"
+        },
+        "AQN": {
+            "caption": "Scale X",
+            "default_val": 15,
+            "doc": "min: 2. max: 22.",
+            "editor": "DynamicValue",
+            "name": "scale_x",
+            "rank": 36,
+            "value": "number"
+        },
+        "AQO": {
+            "caption": "Scale Y",
+            "default_val": 35,
+            "doc": "min: 10. max: 100.",
+            "editor": "DynamicValue",
+            "name": "scale_y",
+            "rank": 37,
+            "value": "number"
+        }
+    },
+    "icon": "ion-arrow-graph-up-right",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "support_autobinding": false
+}

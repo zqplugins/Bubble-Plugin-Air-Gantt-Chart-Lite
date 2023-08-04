@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "technical",
+        "2": "small business",
+        "3": "payment",
+        "4": "ecommerce"
+    },
+    "demo_page": "https://ezcodedemo2.bubbleapps.io/air_chart_lite",
+    "description": "\n🔔 This is a free version of our powerful Air Gantt + Funnel + Timeline Chart plugin - https://bubble.io/plugin/zq-gantt-charts-1549441839806x784741090403811300. \n\n This plugin is a commonly used graphical depiction of a project schedule. It's a type of bar chart showing the start and finish dates of a project's elements such as resources, planning, and dependencies. \n\n🔔 Get our 10 Top Plugins Bundle with 10 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- #1 Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- #1 AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone input Number with formatting\n- Advanced Multi Uploader\n- Video player\n- Dynamic Height & Width of Elements\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/air-gantt-chart-lite-plugin-for-bubble-1690384143511x320609252342702200\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com\n\n",
+    "image": "//meta-l.cdn.bubble.io/f1690167213707x253337360466049820/800x800px%20Chart%20Pro%20Plugin%20Animated%20Gif%20Icon.gif",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Air Gantt Chart Lite ",
+    "plugin_instructions": "Place the chart element on the page and configure its setup according to your needs"
+}
