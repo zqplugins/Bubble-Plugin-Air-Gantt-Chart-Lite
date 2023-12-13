@@ -38,9 +38,11 @@ function(instance, context) {
                 },
                 "task-list-item-value": {
                     "background": "transparent",
+                    "color": instance.data.properties.main_view_color ? instance.data.properties.main_view_color : "#000",
                 },
                 "chart-row-text": {
                     "background": "transparent!important",
+                    "color": instance.data.properties.main_view_color ? instance.data.properties.main_view_color : "#000",
                 },
                 "task-list-header-column": {
                     "background": instance.data.properties.header_background ? instance.data.properties.header_background : "#f3f5f7",
